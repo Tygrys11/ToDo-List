@@ -3,4 +3,10 @@
 
 # ToDo List 
 
-<img src="ToDoList.png" />
+<p align="center">
+  <img src="ToDoList.png" alt="ToDoList">
+</p>
+
+This ToDo List is my first project created using React and Vite.
+
+## <a href="https://to-do-list-planning.netlify.app/" target="_blank">Go to the page!</a>
