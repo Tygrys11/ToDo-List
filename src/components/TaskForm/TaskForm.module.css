@@ -1,0 +1,53 @@
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Rozstawia elementy na końcach kontenera */
+    padding: 10px 18px;
+    gap: 4px;
+  }
+  
+  .inputField {
+    flex: 1; /* Elastyczny element zajmuje dostępne miejsce */
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  .inputField::placeholder {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .iconContainer {
+    font-size: 30px;
+    color: purple;
+    margin: 20px;
+  }
+  
+  .button {
+    background: darkmagenta;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:disabled {
+    background: rgb(255, 160, 255);
+  }
+  
+  .button:disabled:hover {
+    background: rgb(255, 160, 255);
+    box-shadow: none;
+    border: none;
+  }
+  
+  .button:hover {
+    background: rgb(75, 0, 75);
+    box-shadow: 2px 2px 5px rgb(212, 0, 212);
+  }
+  
